@@ -10,7 +10,7 @@ Linux kernel source code for MediaTek-based devices
 This kernel can be assembled in the AOSP version, originally developed for the Vernee Apollo Lite device, with subsequent replacement with the **_non-GPL-respected_** MIUI kernel.
 
 ## Acknowledgements:
-* [Ruben1863](https://github.com/Ruben1863)
+* [@Ruben1863](https://github.com/Ruben1863)
 * [@jmpfbmx](https://github.com/jmpfbmx)
 * [@R0rt1z2](https://github.com/R0rt1z2)
 * [@tretdm](https://github.com/tretdm)
