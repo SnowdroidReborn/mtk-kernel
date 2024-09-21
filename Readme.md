@@ -1,25 +1,16 @@
-# Custom kernel for Xiaomi Redmi Note 4 MTK (nikel)
-Authors: Ruben1863 and tretdm \
-Kernel version 3.18.22
+# mtk-kernels
+Linux kernel source code for MediaTek-based devices
 
--------------------------------------------------
-* Working:
-	* LCM (For now just nt35532_fhd_boe_vdo_lcm)
-	* Touch (FT5346)
-	* Boot
-	* MTP
-	* ADB
+## Branches
+| Branch name                                           | Device model                       | Device codename     | Description
+|-------------------------------------------------------|------------------------------------|---------------------|----------------------------------------------------------------------------------------------------|
+| **aosp_device_xiaomi_nikel**                          | Xiaomi Redmi Note 4/4X (MTK)       | `nikel`             | Modified from [Ruben1863's custom kernel](https://github.com/Ruben1863/android_kernel_xiaomi_nikel)
 
--------------------------------------------------
-* Not working:
-	* Almost all for now
-
-## Building the kernel
-```
-chmod a+x ./Build && bash ./Build
-```
+## Description
+This kernel can be assembled in the AOSP version, originally developed for the Vernee Apollo Lite device, with subsequent replacement with the **_non-GPL-respected_** MIUI kernel.
 
 ## Acknowledgements:
+* [Ruben1863](https://github.com/Ruben1863)
 * [@jmpfbmx](https://github.com/jmpfbmx)
 * [@R0rt1z2](https://github.com/R0rt1z2)
 * [@tretdm](https://github.com/tretdm)
