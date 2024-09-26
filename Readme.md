@@ -17,6 +17,9 @@ This kernel is a custom one and can be built in the AOSP version originally deve
 3. **Some symbolic links are broken in the [`arch/[arch_id]/boot/dts/include`](https://github.com/SnowdroidReborn/mtk-kernels/tree/xiaomi_nikel_custom_3.18/arch/arm64/boot/dts/include/dt-bindings) directory** and have been replaced with pseudo-symbolic ones.\
    We strongly recommend reviewing the contents of the `symlink` file before building to avoid build errors.
 
+## License
+GNU General Public License v2. See [COPYING](https://github.com/SnowdroidReborn/mtk-kernels/blob/xiaomi_nikel_custom_3.18/COPYING) file for more information.
+
 ## Acknowledgements
 * [@Ruben1863](https://github.com/Ruben1863)
 * [@jmpfbmx](https://github.com/jmpfbmx)
