@@ -4,7 +4,7 @@ Linux kernel source code for MediaTek-based devices
 ## Branches
 | Branch name                   | Kernel version                        | Device model                       | Device codename     | Description
 |-------------------------------|------------------------|------------------------------------|---------------------|----------------------------------------------------------------------------------------------------|
-| **xiaomi_nikel_3.18**         | 3.18.22                | Xiaomi Redmi Note 4/4X (MTK)       | `nikel`             | Modified from [Ruben1863's custom kernel](https://github.com/Ruben1863/android_kernel_xiaomi_nikel)
+| **xiaomi_nikel_custom_3.18**         | 3.18.22                | Xiaomi Redmi Note 4/4X (MTK)       | `nikel`             | Modified from [Ruben1863's custom kernel](https://github.com/Ruben1863/android_kernel_xiaomi_nikel)
 
 ## Description
 This kernel is a custom one and can be built in the AOSP version originally developed for the Vernee Apollo Lite device, with subsequent replacement with the **_non-GPL-respected_** MIUI kernel.
