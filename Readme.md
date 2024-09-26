@@ -13,7 +13,7 @@ This kernel is a custom one and can be built in the AOSP version originally deve
 1. **When trying to load the kernel, a bootloop occurs (tested without replacing the kernel in boot.img)**.
 2. **The kernel does not work fully due to a number of reasons:**
    * Despite official statements, Xiaomi does [not publish kernel source codes](https://www.xda-developers.com/xiaomi-aims-to-release-kernel-source-code-for-new-devices-within-3-months-after-launch/) for some devices that run on MediaTek processors.
-   * Due to the above issue, after replacing the kernel, the front camera does not work due to the lack of source codes for the `s5k5e8yx_b6_mipi_raw` HAL driver for `libcameracustom` module (aka `s5k5e8yxb6mipiraw`).
+   * Due to the above issue, after replacing the kernel, the front camera does not work due to the lack of source codes for the `s5k5e8yx_b6_mipi_raw` HAL driver (aka `s5k5e8yxb6mipiraw`) for `libcameracustom` module.
 3. **Some symbolic links are broken in the [`arch/[arch_id]/boot/dts/include`](https://github.com/SnowdroidReborn/mtk-kernels/tree/xiaomi_nikel_custom_3.18/arch/arm64/boot/dts/include/dt-bindings) directory** and have been replaced with pseudo-symbolic ones.\
    We strongly recommend reviewing the contents of the `symlink` file before building to avoid build errors.
 
