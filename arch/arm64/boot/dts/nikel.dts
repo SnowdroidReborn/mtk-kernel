@@ -233,7 +233,7 @@
 	};
 /* sensor standardization */
 	cust_accel@0 {
-		compatible				= "mediatek,icm20645g";
+		compatible				= "mediatek,bmi160_acc";
 		i2c_num					= <1>;
 		i2c_addr				= <0x68 0 0 0>;
 		direction				= <3>;
@@ -270,7 +270,7 @@
 	};
 
 	cust_gyro@0 {
-		compatible				= "mediatek,icm20645gy";
+		compatible				= "mediatek,bmi160_gyro";
 		i2c_num					= <1>;
 		i2c_addr				= <0x69 0 0 0>;
 		direction				= <3>;
